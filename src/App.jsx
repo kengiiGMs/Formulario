@@ -1,12 +1,12 @@
 import React from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Formulario from "./pages/Formulario";
+import Form from "./pages/Form";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Formulario />} />
+        <Route path="/" element={<Form />} />
       </Routes>
     </BrowserRouter>
   )
